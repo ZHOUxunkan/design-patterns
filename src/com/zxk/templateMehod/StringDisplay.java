@@ -1,4 +1,4 @@
-package com.zxk.template;
+package com.zxk.templateMehod;
 
 /**
  * @author zhouer

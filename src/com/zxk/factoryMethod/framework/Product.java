@@ -1,4 +1,4 @@
-package com.zxk.factory.framework;
+package com.zxk.factoryMethod.framework;
 
 /**
  * @author zhouer

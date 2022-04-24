@@ -1,6 +1,6 @@
-package com.zxk.factory.idcard;
+package com.zxk.factoryMethod.idcard;
 
-import com.zxk.factory.framework.Product;
+import com.zxk.factoryMethod.framework.Product;
 
 /**
  * @author zhouer
