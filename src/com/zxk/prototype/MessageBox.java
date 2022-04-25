@@ -15,6 +15,16 @@ public class MessageBox implements Product {
     @Override
     public void use(String s) {
         //具体实现功能
+        int length=s.getBytes().length;
+        for (int i = 0; i < length; i++) {
+            System.out.print(decoChar);
+        }
+        System.out.println();
+        System.out.println(s);
+        for (int i = 0; i < length; i++) {
+            System.out.print(decoChar);
+        }
+        System.out.println();
     }
 
     @Override
