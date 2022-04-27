@@ -1,0 +1,19 @@
+package com.zxk.observer;
+
+/**
+ * @author zhouer
+ * @date 2022-04-27
+ */
+
+public class DigitObserver implements Observer{
+
+    @Override
+    public void update(NumberGenerator numberGenerator) {
+        System.out.println("DigitObserver:"+numberGenerator.getNumber());
+        try {
+            Thread.sleep(100);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+}
